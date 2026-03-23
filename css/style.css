@@ -89,3 +89,9 @@ button:hover {
     height: 92px;
     margin-top: -160px;
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Kolm võrdset veergu */
+    background-color: #f2f2f2;
+}
