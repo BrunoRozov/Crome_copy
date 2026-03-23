@@ -75,7 +75,6 @@ button {
     transition: transform 0.3s ease-in-out, 
                 box-shadow 0.3s ease-in-out, 
                 border-color 0.3s ease-in-out;
-   
 }
 
 /* Hover efekt */
@@ -90,8 +89,27 @@ button:hover {
     margin-top: -160px;
 }
 
-.footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Kolm võrdset veergu */
-    background-color: #f2f2f2;
+footer a {
+    position: fixed;       /* alati allservas */
+  bottom: 0;
+  left: 0;
+  width: 100%;           /* kogu lehe laiuses */
+  background-color: #f8f9fa;  /* hele taust, nagu Google'il */
+  border-top: 1px solid #ddd; /* õhuke joon üleval */
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #000000;        /* hall tekst */
+  box-sizing: border-box;
+  padding: 15px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;         /* ettepoole */
+  
+}
+
+footer a:hover {
+    color: #000000;
+    text-decoration: none;
+
 }
