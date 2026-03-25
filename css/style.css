@@ -100,10 +100,13 @@ footer {
 }
 
 footer a {
-    margin-right: 10px;
+    margin-right: 11px;
     text-decoration: none;
     color: black;
+    font-size: 14px;
     font-family: Arial, sans-serif;
+    position: relative;
+    left: -15px;
 
 }
 
