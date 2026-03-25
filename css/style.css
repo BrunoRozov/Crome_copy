@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
 input {
@@ -75,7 +75,6 @@ button {
     transition: transform 0.3s ease-in-out, 
                 box-shadow 0.3s ease-in-out, 
                 border-color 0.3s ease-in-out;
-   
 }
 
 /* Hover efekt */
@@ -89,3 +88,53 @@ button:hover {
     height: 92px;
     margin-top: -160px;
 }
+
+footer {       
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  padding: 27px 35px;
+
+}
+
+.box {
+    padding: 0 0;
+    border-bottom: 1px solid #ddd;
+    
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer a {
+    margin-right: 11px;
+    margin-bottom: 0 ;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    left: -15px;
+
+}
+
+footer a:hover {
+    color: #000000;
+    text-decoration: none;
+    text-decoration: underline;  /* Teeb joone kirja alla */
+
+}
+
+.link {
+    margin-left: 15px;
+    text-decoration: 30px;
+
+}
+
+a {
+    text-decoration: none;
+} 
